@@ -1,0 +1,59 @@
+<!-- Name: Sachin Adhikari
+Uni Id: 2358849 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="weather.css">
+  <meta charset="UTF-8"> <!-- Add the character encoding meta tag -->
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="images/search.png"></button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+      <img src="images/rain.png" class="weather-icon">
+      <h2 class="temp"></h2>
+      <h3 class="city"></h3>
+
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png">
+          <div>
+            <p class="humidity"></p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind"></p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="pre" src="images/pressure.png">
+          <div>
+            <p class="pressure"></p>
+            <p>Pressure</p>
+          </div>
+        </div>
+        <div class="colum"> <!-- Correct the class name to "colum" -->
+          <img class="dat" src="images/date.png">
+          <div>
+            <p class="date"></p>
+            <p>Date and Time</p> <!-- Add appropriate text here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
